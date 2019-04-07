@@ -1,0 +1,8 @@
+
+*.iml
+*.xml
+*.pyc
+venv/bin/activate
+*.csh
+*.fish
+venv/*
