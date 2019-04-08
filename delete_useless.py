@@ -46,8 +46,8 @@ if __name__ == '__main__':
 
     if argDirectory != "" and argDirectory != "var" and argDirectory != "tmp":
         print("WARNING - For " + argDirectory + " check manually")
-    elif "exx" in argHost:
-        print("CRITICAL - VM Exxoss or AWS, check it manually")
+    elif "exx" in argHost or argHost == "prd210":
+        print("CRITICAL - VM Exxoss, AWS or savebox, check it manually")
     else:
         #Connect to VM
         try:
