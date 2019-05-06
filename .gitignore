@@ -5,3 +5,4 @@
 *.csh
 *.fish
 venv/*
+.vscode/*
